@@ -56,15 +56,18 @@ public static void main(String[] args) {
     int trues=1;
     while(trues==1){
     System.out.println("hay chon loai phuong trinh");
-    String x=sc.nextLine();
+    System.out.println("1.Bac nhat 1 an");
+    System.out.println("2.Bac nhat 2 an");   
+    System.out.println("3.Bac hai 1 an");
+    int x=sc.nextInt();
     switch ((x)) {
-        case "bac nhat 1 an":
+        case 1:
             bacnhat1an();
             break;
-        case "bac nhat 2 an":
+        case 2:
             bacnhat2an();
             break;
-        case "bac hai 1 an":
+        case 3:
             bachai1an();
             break;
         default:
