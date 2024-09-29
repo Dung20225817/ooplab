@@ -1,7 +1,8 @@
+c1 -nếu user chọn "Cancel" trong Dialog màn hình sẽ hiển thị "No*/
+c2 để có thể hiển thị 2 lựa chọn trên dialog ta có thể chạy chương trình sau:
 import javax.swing.JOptionPane;
 public class ChoosingOption {
     public static void main(String[] args) {
-        //int option=JOptionPane.showConfirmDialog(null,"Do you want to change to the first class ticket");
         Object[] options = { "Yes", "No" };
         int choice = JOptionPane.showOptionDialog(null,
             "Do you want to change to the first class ticket",  // Message
@@ -16,4 +17,4 @@ public class ChoosingOption {
     }
 }
 
-/* -nếu user chọn "Cancel" trong Dialog màn hình sẽ hiển thị "No*/
+
